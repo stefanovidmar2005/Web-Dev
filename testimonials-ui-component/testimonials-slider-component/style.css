@@ -80,6 +80,7 @@ span {
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
+  color: var(--dark-blue);
 }
 
 .slide-element .slide-element-description {

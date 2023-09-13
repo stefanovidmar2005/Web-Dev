@@ -1,0 +1,4 @@
+- See hover states for all interactive elements throughout the site
+- Show hamburger menu on mobile devices
+- Hide/Show the answer to a question when the question is clicked
+- Make it responsive

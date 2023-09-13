@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-blue: #0b163f;
+  --red: #fcdde1;
+  --red-shadow: #fe6b7e;
+  --green: #def4ed;
+  --green-shadow: #5bb297;
+  --blue: #ceddff;
+  --blue-shadow: #175cff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 8rem;
+  /* align-items: center; */
+}
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 48px;
+  text-transform: capitalize;
+  color: var(--dark-blue);
+  font-family: "monospace";
+  max-width: 500px;
+  line-height: 1.3;
+  font-family: "Josefin Sans" sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.slide-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.circle {
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  padding: 1.25rem;
+}
+span {
+  font-size: 20px;
+  color: white;
+}
+.outline {
+  background-color: transparent;
+  border: 1.5px solid black;
+}
+.outline-span {
+  color: black;
+}
+
+/* SLIDER  */
+
+.slider {
+  display: flex;
+  gap: 5.06em;
+  /* overflow-x: hidden; */
+  max-width: 1400px;
+}
+.slide-element {
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+.slide-element h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.slide-element .slide-element-description {
+  font-size: 18px;
+  font-family: "Roboto" sans-serif;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.slide-green {
+  background: var(--green);
+  box-shadow: 8px 8px 0px #5bb297;
+}
+.slide-red {
+  background: var(--red);
+  box-shadow: 8px 8px 0px var(--red-shadow);
+}
+.slide-blue {
+  background: var(--blue);
+  box-shadow: 8px 8px 0px var(--blue-shadow);
+}
+.stars {
+  margin: 10px 0;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.person-name {
+  color: var(--dark-blue);
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+.person-job {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
